@@ -1,0 +1,22 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.36.0.
+--
+-- see: https://github.com/sol/hpack
+
+name:           downstream-pkg
+version:        0.0.0
+build-type:     Simple
+
+library
+  exposed-modules:
+      Test
+  other-modules:
+      Paths_downstream_pkg
+  hs-source-dirs:
+      src
+  build-depends:
+      base
+    , lens
+    , lib-pkg
+  default-language: Haskell2010

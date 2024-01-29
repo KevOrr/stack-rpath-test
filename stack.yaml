@@ -1,0 +1,13 @@
+resolver: lts-22.7
+compiler: ghc-9.6.4
+
+# Also tested
+# resolver: lts-20.0
+# compiler: ghc-9.2.5
+
+packages:
+  - lib-pkg
+  - downstream-pkg
+
+extra-lib-dirs:
+  - "/tmp/mylib_d"

@@ -1,0 +1,10 @@
+name: downstream-pkg
+
+dependencies:
+  - base
+  - lib-pkg
+  - lens
+
+library:
+  source-dirs:
+  - src
