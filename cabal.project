@@ -1,0 +1,10 @@
+import: https://www.stackage.org/lts-22.7/cabal.config
+-- Also tested:
+-- import: https://www.stackage.org/lts-20.0/cabal.config
+
+packages:
+    lib-pkg
+    downstream-pkg
+
+extra-lib-dirs:
+    /tmp/mylib_d
